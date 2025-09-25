@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Canvas by Olatunde Adebesin</title>
+    <link rel="stylesheet" href="canvas.css">
+   
+</head>
+<body>
+        <canvas id="roofCanvas" width="600" height="100"></canvas>
+        <canvas id="houseCanvas" width="400" height="300"></canvas>
+        <canvas id="myCanvas" width="400" height="200"></canvas>
+        <canvas id="skyCanvas" width="1160" height="200"></canvas>
+        <canvas id="groundCanvas" width="600" height="70"></canvas>
+        <!-- <canvas id="sunCanvas" width="200" height="200"></canvas>
+        <canvas id="treeCanvas" width="200" height="200"></canvas> 
+        <canvas id="carCanvas" width="400" height="200"></canvas>
+        <canvas id="roadCanvas" width="800" height="200"></canvas>
+        <canvas id="cloudCanvas" width="400" height="200"></canvas>
+        <canvas id="grassCanvas" width="800" height="200"></canvas>
+        <canvas id="flowerCanvas" width="200" height="200"></canvas>
+        <canvas id="windowCanvas" width="200" height="200"></canvas>
+        <canvas id="doorCanvas" width="200" height="200"></canvas>
+        <canvas id="chimneyCanvas" width="200" height="200"></canvas>
+        <canvas id="fenceCanvas" width="800" height="200"></canvas>
+        <canvas id="pathCanvas" width="400" height="200"></canvas>
+        <canvas id="birdCanvas" width="200" height="200"></canvas>
+        <canvas id="butterflyCanvas" width="200" height="200"></canvas>
+        <canvas id="benchCanvas" width="400" height="200"></canvas>
+        <canvas id="lampCanvas" width="200" height="200"></canvas>
+        <canvas id="bushCanvas" width="200" height="200"></canvas>
+        <canvas id="pondCanvas" width="400" height="200"></canvas>
+        <canvas id="bridgeCanvas" width="400" height="200"></canvas>
+        <canvas id="fountainCanvas" width="400" height="200"></canvas>
+        <canvas id="statueCanvas" width="200" height="200"></canvas>
+        <canvas id="gazeboCanvas" width="400" height="200"></canvas>
+        <canvas id="treehouseCanvas" width="400" height="200"></canvas>
+        <canvas id="swingCanvas" width="400" height="200"></canvas>
+        <canvas id="slideCanvas" width="400" height="200"></canvas>
+        <canvas id="sandboxCanvas" width="400" height="200"></canvas>
+        <canvas id="seesawCanvas" width="400" height="200"></canvas> --> 
+    
+    <!-- <div id="carousel">
+        <canvas id="carouselCanvas" width="400" height="200"></canvas>
+    
+    <div id="ferriswheel">
+        <canvas id="ferriswheelCanvas" width="400" height="200"></canvas>
+    
+    <div id="rollercoaster">
+        <canvas id="rollercoasterCanvas" width="400" height="200"></canvas>
+    
+    <div id="train">
+        <canvas id="trainCanvas" width="400" height="200"></canvas>
+    
+    <div id="airplane">
+        <canvas id="airplaneCanvas" width="400" height="200"></canvas>
+    
+    <div id="hotairballoon">
+        <canvas id="hotairballoonCanvas" width="400" height="200"></canvas>
+    
+    <div id="helicopter">
+        <canvas id="helicopterCanvas" width="400" height="200"></canvas>
+    
+    <div id="rocket">
+        <canvas id="rocketCanvas" width="400" height="200"></canvas>
+    
+    <div id="spaceship">
+        <canvas id="spaceshipCanvas" width="400" height="200"></canvas>
+    
+    <div id="satellite">
+        <canvas id="satelliteCanvas" width="400" height="200"></canvas>
+    
+    <div id="telescope">
+        <canvas id="telescopeCanvas" width="400" height="200"></canvas>
+    
+    <div id="observatory">
+        <canvas id="observatoryCanvas" width="400" height="200"></canvas>
+    
+    <div id="planetarium">
+        <canvas id="planetariumCanvas" width="400" height="200"></canvas>
+    
+    <div id="space">
+        <canvas id="spaceCanvas" width="400" height="200"></canvas>
+    
+    <div id="universe">
+        <canvas id="universeCanvas" width="400" height="200"></canvas>
+    
+    <div id="galaxy">
+        <canvas id="galaxyCanvas" width="400" height="200"></canvas>
+    
+    <div id="blackhole">
+        <canvas id="blackholeCanvas" width="400" height="200"></canvas>
+    
+    <div id="wormhole">
+        <canvas id="wormholeCanvas" width="400" height="200"></canvas>
+    
+    <div id="multiverse">
+        <canvas id="multiverseCanvas" width="400" height="200"></canvas>
+    
+    <div id="dimension">
+        <canvas id="dimensionCanvas" width="400" height="200"></canvas>
+    
+    <div id="reality">
+        <canvas id="realityCanvas" width="400" height="200"></canvas>
+    
+    <div id="illusion">
+        <canvas id="illusionCanvas" width="400" height="200"></canvas>
+    
+    <div id="dream">
+        <canvas id="dreamCanvas" width="400" height="200"></canvas>
+    
+    <div id="fantasy">
+        <canvas id="fantasyCanvas" width="400" height="200"></canvas>
+    
+    <div id="imagination">
+        <canvas id="imaginationCanvas" width="400" height="200"></canvas>
+    
+    <div id="creativity">
+        <canvas id="creativityCanvas" width="400" height="200"></canvas>
+    
+    <div id="inspiration">
+        <canvas id="inspirationCanvas" width="400" height="200"></canvas>
+    
+    <div id="motivation">
+        <canvas id="motivationCanvas" width="400" height="200"></canvas>
+    
+    <div id="determination">
+        <canvas id="determinationCanvas" width="400" height="200"></canvas>
+    
+    <div id="perseverance">
+        <canvas id="perseveranceCanvas" width="400" height="200"></canvas>
+    
+    <div id="resilience">
+        <canvas id="resilienceCanvas" width="400" height="200"></canvas>
+    
+    <div id="strength">
+        <canvas id="strengthCanvas" width="400" height="200"></canvas>
+    
+    <div id="courage">
+        <canvas id="courageCanvas" width="400" height="200"></canvas>
+    
+    <div id="bravery">
+        <canvas id="braveryCanvas" width="400" height="200"></canvas>
+    
+    <div id="honor">
+        <canvas id="honorCanvas" width="400" height="200"></canvas>
+    
+    <div id="integrity">
+        <canvas id="integrityCanvas" width="400" height="200"></canvas>
+    
+    <div id="loyalty">
+        <canvas id="loyaltyCanvas" width="400" height="200"></canvas>
+    
+    <div id="friendship">
+        <canvas id="friendshipCanvas" width="400" height="200"></canvas>
+    
+    <div id="love">
+        <canvas id="loveCanvas" width="400" height="200"></canvas>
+    
+    <div id="happiness">
+        <canvas id="happinessCanvas" width="400" height="200"></canvas>
+    
+    <div id="joy">
+        <canvas id="joyCanvas" width="400" height="200"></canvas>
+    
+    <div id="peace">
+        <canvas id="peaceCanvas" width="400" height="200"></canvas>
+    
+    <div id="serenity">
+        <canvas id="serenityCanvas" width="400" height="200"></canvas>
+    
+    <div id="tranquility">
+        <canvas id="tranquilityCanvas" width="400" height="200"></canvas>
+    
+    <div id="calm">
+        <canvas id="calmCanvas" width="400" height="200"></canvas>
+    
+    <div id="relaxation">
+        <canvas id="relaxationCanvas" width="400" height="200"></canvas>
+    
+    <div id="meditation">
+        <canvas id="meditationCanvas" width="400" height="200"></canvas>
+    
+    <div id="yoga">
+        <canvas id="yogaCanvas" width="400" height="200"></canvas>
+    
+    <div id="mindfulness">
+        <canvas id="mindfulnessCanvas" width="400" height="200"></canvas>
+    
+    <div id="awareness">
+        <canvas id="awarenessCanvas" width="400" height="200"></canvas>
+    
+    <div id="consciousness">
+        <canvas id="consciousnessCanvas" width="400" height="200"></canvas>
+    
+    <div id="enlightenment">
+        <canvas id="enlightenmentCanvas" width="400" height="200"></canvas>
+    
+    <div id="spirituality">
+        <canvas id="spiritualityCanvas" width="400" height="200"></canvas>
+    
+    <div id="faith">
+        <canvas id="faithCanvas" width="400" height="200"></canvas>
+    
+    <div id="hope">
+        <canvas id="hopeCanvas" width="400" height="200"></canvas>
+    
+    <div id="charity">
+        <canvas id="charityCanvas" width="400" height="200"></canvas>   
+    
+    <div id="kindness">
+        <canvas id="kindnessCanvas" width="400" height="200"></canvas>
+    
+    <div id="compassion">
+        <canvas id="compassionCanvas" width="400" height="200"></canvas>    
+    
+    <div id="empathy">
+        <canvas id="empathyCanvas" width="400" height="200"></canvas>
+    
+    <div id="sympathy">
+        <canvas id="sympathyCanvas" width="400" height="200"></canvas>
+    
+    <div id="generosity">
+        <canvas id="generosityCanvas" width="400" height="200"></canvas>
+    
+    <div id="gratitude">
+        <canvas id="gratitudeCanvas" width="400" height="200"></canvas>
+    
+    <div id="forgiveness">
+        <canvas id="forgivenessCanvas" width="400" height="200"></canvas>
+    
+    <div id="patience">
+        <canvas id="patienceCanvas" width="400" height="200"></canvas>
+    
+    <div id="tolerance">
+        <canvas id="toleranceCanvas" width="400" height="200"></canvas>
+    
+    <div id="respect">
+        <canvas id="respectCanvas" width="400" height="200"></canvas>
+    
+    <div id="dignity">
+        <canvas id="dignityCanvas" width="400" height="200"></canvas>   
+    
+    <div id="equality">
+        <canvas id="equalityCanvas" width="400" height="200"></canvas>
+    
+    <div id="justice">
+        <canvas id="justiceCanvas" width="400" height="200"></canvas>
+    
+    <div id="freedom">
+        <canvas id="freedomCanvas" width="400" height="200"></canvas>
+    
+    <div id="democracy">
+        <canvas id="democracyCanvas" width="400" height="200"></canvas>
+    
+    <div id="peace">
+        <canvas id="peaceCanvas" width="400" height="200"></canvas>
+    
+    <div id="harmony">
+        <canvas id="harmonyCanvas" width="400" height="200"></canvas>
+    
+    <div id="unity">
+        <canvas id="unityCanvas" width="400" height="200"></canvas>
+    
+    <div id="solidarity">
+        <canvas id="solidarityCanvas" width="400" height="200"></canvas>
+    
+    <div id="community">
+        <canvas id="communityCanvas" width="400" height="200"></canvas>
+     -->
+     <script src="./canvas.js"></script>
+    
+</body>
+</html>
