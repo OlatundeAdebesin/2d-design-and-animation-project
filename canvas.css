@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myCanvas {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+#houseCanvas {
+    border: 1px solid black;
+    position: relative;
+}
+
+#skyCanvas {
+    position: absolute;
+    top: -7%;
+    left: 0%;
+    z-index: -1;
+}
+#groundCanvas {
+    z-index: -11;
+}
